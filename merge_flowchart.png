@@ -1,0 +1,16 @@
+Start
+↓
+Check if both head1 and head2 are not null
+↓
+Compare head1.ssn and head2.ssn
+↓
+[If head1.ssn <= head2.ssn] → Add head1 to merged list → Move head1
+[Else] → Add head2 to merged list → Move head2
+↓
+Repeat until one list ends
+↓
+Append the rest of the non-empty list to the merged list
+↓
+Return merged list head
+↓
+End
